@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Syncopate:700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+body { 
+	background: #000;
+	color: #fff;
+	font-family: 'Slabo 27px', serif;
+	text-align: left;
+}
+h1 {
+	color: #ff0000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+#slogan {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	text-align: center;
+}
+#goal{
+	font-size: 28px;
+	font-weight: 700px;
+	text-align: center;
+}
+#main {
+	font-family: 'Slabo 27px', serif;
+	font-size: 24px;
+	line-height: 1.5em;
+	text-align: center;
+}
+#schedule{
+	font-family: 'Slabo 27px', serif;
+	text-align: right;
+	text-decoration: underline;
+}
+#games{
+	font-family: 'Slabo 27px', serif;
+	list-style-type: none;
+	text-align: right;
+}
+hr {
+	width: 600px;
+}
+p {
+	font-size: 24px;
+}
+ul {
+	font-size: 24px;
+	line-height: 1.5em;
+}
+a {
+	color: #ff0000;
+	font-size: 24px;
+}
+img {
+	margin-left: 300px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 150px;
+}
