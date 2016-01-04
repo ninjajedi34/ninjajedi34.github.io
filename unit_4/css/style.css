@@ -2,8 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Syncopate:700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 body { 
-	background: #000;
-	color: #fff;
+	background: url("../images/basketballcourt.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #000;
 	font-family: 'Slabo 27px', serif;
 	text-align: left;
 }
@@ -13,25 +14,19 @@ h1 {
 	font-size: 60px;
 	text-align: center;
 }
+p {
+	font-family: 'Slabo 27px', serif;
+	font-size: 24px;
+	text-align: left;
+}
 #slogan {
 	font-family: 'Syncopate', sans-serif;
 	font-size: 36px;
-	font-style: italic;
-	text-align: center;
-}
-#goal{
-	font-size: 28px;
-	font-weight: 700px;
-	text-align: center;
-}
-#main {
-	font-family: 'Slabo 27px', serif;
-	font-size: 24px;
-	line-height: 1.5em;
 	text-align: center;
 }
 #schedule{
 	font-family: 'Slabo 27px', serif;
+	font-size: 24px;
 	text-align: right;
 	text-decoration: underline;
 }
@@ -43,9 +38,6 @@ h1 {
 hr {
 	width: 600px;
 }
-p {
-	font-size: 24px;
-}
 ul {
 	font-size: 24px;
 	line-height: 1.5em;
@@ -53,10 +45,4 @@ ul {
 a {
 	color: #ff0000;
 	font-size: 24px;
-}
-img {
-	margin-left: 325px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	margin-right: 150px;
 }
