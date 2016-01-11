@@ -1,55 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 @import url(https://fonts.googleapis.com/css?family=Syncopate:700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+* { margin:0; padding:0; box-sizing:border-box; }
 body { 
 	background: url("../images/basketballcourt.jpg") no-repeat center center fixed;
 	background-size: cover;
 	color: #000;
 	font-family: 'Slabo 27px', serif;
-	text-align: left;
-}
-h1 {
-	color: #ff0000;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 60px;
-	text-align: center;
-}
-p {
-	font-family: 'Slabo 27px', serif;
-	font-size: 24px;
-	text-align: left;
-}
-#slogan {
-	font-family: 'Syncopate', sans-serif;
-	font-size: 36px;
-	text-align: center;
-}
-#schedule{
-	font-family: 'Slabo 27px', serif;
-	font-size: 24px;
-	text-align: right;
-	text-decoration: underline;
-}
-#games{
-	font-family: 'Slabo 27px', serif;
-	list-style-type: none;
-	text-align: right;
-}
-hr {
-	width: 600px;
-}
-ul {
-	font-size: 24px;
-	line-height: 1.5em;
-}
-a {
-	color: #ff0000;
-	font-size: 24px;
+	font-size:24px;
 }
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 1em;
 }
 nav {
 	background color: #E8C66A;
@@ -61,7 +24,7 @@ aside {
 	border: 1px black solid;
 	padding: 20px;
 }
-article {
+section {
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
@@ -71,7 +34,34 @@ footer{
 	border: 1px black solid;
 	padding: 20px;
 }
- #wrapper {
+h1 {
+	color: #ff0000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2.5em;
+	text-align: center;
+}
+hr {
+	margin:auto;
+	width: 25em;
+}
+ul {
+	line-height: 1.5em;
+}
+a {
+	color: #ff0000;
+}
+#slogan {
+	font-family: 'Syncopate', sans-serif;
+	font-size:1.5em;
+	text-align: center;
+}
+#schedule{
+	text-decoration: underline;
+}
+#games{
+	list-style-type: none;
+}
+.wrapper {
  	background-color: #FFE2B8;
  	border: 1px black solid;
  	padding: 20px;
