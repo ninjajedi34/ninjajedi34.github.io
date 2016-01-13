@@ -5,13 +5,12 @@
 body { 
 	background: url("../images/basketballcourt.jpg") no-repeat center center fixed;
 	background-size: cover;
-	color: #000;
+	color: #fff;
 	font-family: 'Slabo 27px', serif;
-	font-size:24px;
+	font-size:18px;
 }
 header {
-	background-color: #fff;
-	padding: 1em;
+		padding: 1em;
 }
 nav {
 	color: rgba(226, 28, 28, .92);
@@ -20,21 +19,19 @@ nav {
 	width:7.5em;
 }
 aside {
-	background-color: #fff;
 	border: 1px black solid;
 	color: rgb(32, 35, 36);
 	padding: .5em;
 	float: right;
 }
 section {
-	background-color: #fff;
 	border: 1px black solid;
 	color: rgb(32, 35, 36);
 	float: left;
-	font-size: .95em;
+	font-size: 1em;
 	margin: 0 0 1em 3.5em;
 	padding: 1em;
-	width: 18em;
+	width: 25em;
 }
 footer{
 	background-color: rgba(226, 28, 28, .92);
@@ -47,15 +44,14 @@ footer{
 h1 {
 	color: rgba(226, 28, 28, .92);
 	font-family: 'Abril Fatface', cursive;
-	font-size: 2.5em;
-	text-align: center;
+	font-size: 3.5em;
+	text-align: right;
 }
 h2 {
 	font-size: 1.05em;
 	padding-bottom: .25em;
 }
 p {
-	font-size: 1em;
 	line-height: 1.5em;
 }
 ul {
@@ -79,19 +75,17 @@ a:hover {
 	color: rgb(32, 35, 36);
 	font-family: 'Syncopate', sans-serif;
 	font-size:1.25em;
-	padding: 1em;
-	text-align: center;
+	text-align: right;
+	padding: .5em 0 .5em 0;
 }
 #games{
-	font-size: .75em;
 	font-weight: normal;
 	line-height: 1.75em;
 	list-style-type: none;
 }
 #contacts {
 	border: none;
-	float:left;
-	font-size: .75em;
+	float: right;
 	width: 14em;
 }	
 .wrapper {
@@ -101,3 +95,30 @@ a:hover {
  	padding: 20px;
  	width: 1200px;
  }
+#two_column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear:both;
+	height: 0;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	float: left;
+	padding: 20px;
+	width: 30%;
+}
+#right{
+	background-color: #E55B88;
+	border-top: 1px black solid;
+	float:right;
+	padding: 20px;
+	width:62%;
+}
