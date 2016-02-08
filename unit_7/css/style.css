@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Syncopate:700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+* { margin:0; padding:0; box-sizing:border-box; }
+body { 
+	background: url("../images/basketballcourt.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Slabo 27px', serif;
+	font-size:18px;
+}
+header {
+		padding: 1em;
+}
+nav {
+	margin: 0;
+	width:7.5em;
+}
+aside {
+	border: 1px black solid;
+	color: rgb(32, 35, 36);
+	padding: .5em;
+}
+section {
+	border: 1px black solid;
+	color: rgb(32, 35, 36);
+	font-size: 1em;
+	margin: 0 0 1em 1em;
+	padding: 2em;
+	width: 30.5em;
+}
+footer{
+	background-color: rgba(226, 28, 28, .92);
+	color: rgb(32, 35, 36);
+	font-size: .75em;
+	margin: 1em auto;
+	padding: 10px;
+	text-align: right;
+	width:63%;
+}
+h1 {
+	color: rgba(226, 28, 28, .92);
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.5em;
+	text-align: right;
+}
+h2 {
+	font-size: 1.05em;
+	padding-bottom: .25em;
+}
+p {
+	line-height: 1.5em;
+}
+ul {
+	line-height: 1.5em;
+	margin: .25em;
+}
+a {
+	background-color: rgba(80, 84, 85, .34);
+	color: rgba(226, 28, 28, .92);
+	display: block;
+	padding: .5em;
+	text-decoration: none;
+	width: 7.5em;
+}
+a:hover {
+	color: rgba(32, 35, 36, 1);
+}
+#slogan {
+	border-bottom: .10em black solid;
+	border-top: .10em black solid;
+	color: rgb(32, 35, 36);
+	font-family: 'Syncopate', sans-serif;
+	font-size:1.25em;
+	text-align: right;
+	padding: .5em 0 .5em 0;
+}
+#games{
+	font-weight: 400;
+	line-height: 1.75em;
+	list-style-type: none;
+}
+#contacts {
+	border: none;
+	margin-top: 1.5em;
+	width: 14em;
+}	
+.wrapper {
+ 	background-color: #fff;
+ 	border: 1px black solid;
+ 	margin: auto;
+ 	padding: 20px;
+ 	width: 1200px;
+ }
+ .column{
+ 	float: left;
+ }
+
+.clearfix:after{
+	height:0;
+	font-size:0;
+	visibility:hidden;
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+ #col_three{
+ 	margin: 0 0 0 3em;
+ 	width: 23%;
+ }
