@@ -10,11 +10,8 @@ body {
 	font-family: 'Slabo 27px', serif;
 	font-size:18px;
 }
-header {
-	padding: 1em;
-}
 nav {
-	width:7.5em;
+	background-color: rgba(80, 84, 85, .34);
 }
 aside {
 	border: 1px black solid;
@@ -24,7 +21,6 @@ section {
 	border: 1px black solid;
 	margin: 0 0 1em 1em;
 	padding: 2em;
-	width: 30.5em;
 }
 footer{
 	background-color: rgba(226, 28, 28, .92);
@@ -32,7 +28,7 @@ footer{
 	margin: 1em auto;
 	padding: 10px;
 	text-align: right;
-	width:63%;
+	width:80%;
 }
 h1 {
 	color: rgba(226, 28, 28, .92);
@@ -47,17 +43,19 @@ h2 {
 p {
 	line-height: 1.5em;
 }
+span{
+	display: block;
+}
 ul {
 	line-height: 1.5em;
 	margin: .25em;
 }
 a {
-	background-color: rgba(80, 84, 85, .34);
 	color: rgba(226, 28, 28, .92);
 	display: block;
+	font-size: 1.15em;
 	padding: .5em;
 	text-decoration: none;
-	width: 7.5em;
 }
 a:hover {
 	color: rgba(32, 35, 36, 1);
@@ -78,17 +76,17 @@ a:hover {
 #contacts {
 	border: none;
 	margin-top: 1.5em;
-	width: 14em;
 }	
 .wrapper {
  	background-color: #fff;
  	border: 1px black solid;
  	margin: auto;
- 	padding: 20px;
- 	width: 1200px;
+ 	padding: 2em;
+ 	width: 80%;
  }
  .column{
  	float: left;
+ 	margin-top: 20px;
  }
 
 .clearfix:after{
@@ -99,8 +97,14 @@ a:hover {
 	display:block;
 	clear:both;
 }
-
- #col_three{
- 	margin: 0 0 0 3em;
- 	width: 23%;
+#col_one{
+	width:20%;
+}
+#col_two{
+	width:50%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+#col_three{
+	width: 25%;
  }
