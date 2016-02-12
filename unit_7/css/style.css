@@ -1,37 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 @import url(https://fonts.googleapis.com/css?family=Syncopate:700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 * { margin:0; padding:0; box-sizing:border-box; }
 body { 
 	background: url("../images/basketballcourt.jpg") no-repeat center center fixed;
 	background-size: cover;
-	color: #fff;
+	color: rgb(32, 35, 36);
 	font-family: 'Slabo 27px', serif;
 	font-size:18px;
 }
 header {
-		padding: 1em;
+	padding: 1em;
 }
 nav {
-	margin: 0;
 	width:7.5em;
 }
 aside {
 	border: 1px black solid;
-	color: rgb(32, 35, 36);
 	padding: .5em;
 }
 section {
 	border: 1px black solid;
-	color: rgb(32, 35, 36);
-	font-size: 1em;
 	margin: 0 0 1em 1em;
 	padding: 2em;
 	width: 30.5em;
 }
 footer{
 	background-color: rgba(226, 28, 28, .92);
-	color: rgb(32, 35, 36);
 	font-size: .75em;
 	margin: 1em auto;
 	padding: 10px;
@@ -69,7 +65,6 @@ a:hover {
 #slogan {
 	border-bottom: .10em black solid;
 	border-top: .10em black solid;
-	color: rgb(32, 35, 36);
 	font-family: 'Syncopate', sans-serif;
 	font-size:1.25em;
 	text-align: right;
