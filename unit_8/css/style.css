@@ -24,7 +24,7 @@ section {
 }
 footer{
 	background-color: rgba(226, 28, 28, .92);
-	font-size: .75em;
+	font-size: 1em;
 	margin: 1em auto;
 	padding: 10px;
 	text-align: right;
@@ -100,6 +100,7 @@ a:hover {
 
 #col_one{
 	width:20%;
+	min-width: 181px;
 }
 
 #col_two{
@@ -128,7 +129,6 @@ a:hover {
 #contacts {
 	border: none;
 	margin-top: 1.5em;
-	margin-right: 1.5em;
 }	 
 
 @media only screen and (max-width: 1230px) {
@@ -151,13 +151,24 @@ a:hover {
 
  	}
  }
+@media only screen and (max-width: 1095px){
+	#col_three {
+ 		width: 20%;
+ 		margin-right: 0;
+ 	}
 
+ 	#games {
+ 		margin:auto;
+ 	}
+}
  @media only screen and (max-width: 1030px) {
  	body {
  		font-size: 14px;
  	}
- }
-  @media only screen and (max-width: 850px) {
+
+}
+
+@media only screen and (max-width: 850px) {
  
  	h1, #slogan {
  		text-align: center;
@@ -167,22 +178,36 @@ a:hover {
  		width: 90%;
  	}
 
+ 	#col_one {
+ 		width: 25%;
+ 	}
+
  	#col_three {
  		display: none;
  	}
 
  	#col_two {
- 		margin-left: 6em;
+ 		width: 60%;
  	}
  }
-
- @media only screen and (min-width: 360px) and (max-width: 625px) {
+@media only screen and (max-width: 660px){
+	#col_two{
+		width:59%;
+	}
+}
+ @media only screen and (min-width: 360px) and (max-width: 645px) {
  	body{
+ 		background: rgba(227, 28, 28, 0.92);
  		font-size: 16px;
  	}
+
+ 	footer{
+ 		background: none;
+ 	}
+
    	nav {
  		display:none;
- 		margin: .5em 0 .5em 5em;
+ 		margin: 1px 0 0;
  		width: 100%;
 
  	}
@@ -196,6 +221,10 @@ a:hover {
  		font-size: 2em;
  	}
 
+ 	section{
+ 		margin: 0;
+ 	}
+
  	.column {
  		float: none;
  	}
@@ -206,7 +235,8 @@ a:hover {
    		cursor: pointer;
    		display: block;
    		font-size: 1.25em;
-   		margin: .5em 0 .5em 3.25em;
+   		margin: 0;
+   		padding: .5em;
    		text-align:center;  
    		width: 100%; 		
    	}
@@ -216,12 +246,12 @@ a:hover {
  	}
 
  	#col_one {
- 		width: 50%;
+ 		width: 100%;
  	}
  	
  	#col_two{
- 		width:97%;
- 		margin: auto;
+ 		width:100%;
+ 		margin: 0;
  	}
 
  	#contacts {
