@@ -43,6 +43,7 @@ h2 {
 p {
 	line-height: 1.5em;
 }
+
 span{
 	display: block;
 }
@@ -50,7 +51,10 @@ ul {
 	line-height: 1.5em;
 	margin: .25em;
 }
-a {
+a{
+	color: rgba(226, 28, 28, .92);
+}
+nav a{
 	color: rgba(226, 28, 28, .92);
 	border-bottom: 1px white solid;
 	display: block;
@@ -70,11 +74,11 @@ a:hover {
  	padding: 2em;
  	width: 90%;
  	max-width: 1480px;
- }
- .column{
+}
+.column{
  	float: left;
  	margin-top: 20px;
- }
+}
 
 .clearfix:after{
 	height:0;
@@ -84,17 +88,29 @@ a:hover {
 	display:block;
 	clear:both;
 }
+
+#menu{
+	display: none;
+}
+
+#toggle{
+	display:none;
+	visibility: hidden;
+}
+
 #col_one{
 	width:20%;
 }
+
 #col_two{
 	width:50%;
 	margin-right: 2.5%;
 	margin-left: 2.5%;
 }
+
 #col_three{
 	width: 25%;
- }
+}
 
 #slogan {
 	border-bottom: .10em black solid;
@@ -141,12 +157,13 @@ a:hover {
  	}
  }
   @media only screen and (max-width: 850px) {
- 	.wrapper {
- 		width: 90%;
- 	}
-
+ 
  	h1, #slogan {
  		text-align: center;
+ 	}
+
+ 	.wrapper {
+ 		width: 90%;
  	}
 
  	#col_three {
@@ -159,16 +176,42 @@ a:hover {
  }
 
  @media only screen and (min-width: 360px) and (max-width: 625px) {
+ 	body{
+ 		font-size: 16px;
+ 	}
    	nav {
- 		width:200%;
+ 		display:none;
+ 		margin: .5em 0 .5em 5em;
+ 		width: 100%;
+
+ 	}
+
+ 	nav a {
+ 		display:block;
  	}
 
  	h1 {
+ 		border-bottom: .10em black solid;
  		font-size: 2em;
  	}
 
  	.column {
  		float: none;
+ 	}
+
+ 	#menu{
+   		background-color: rgba(80, 84, 85, .34);
+   		color:rgba(226, 28, 28, .92);
+   		cursor: pointer;
+   		display: block;
+   		font-size: 1.25em;
+   		margin: .5em 0 .5em 3.25em;
+   		text-align:center;  
+   		width: 100%; 		
+   	}
+
+ 	#toggle:checked+nav{
+ 		display:block;
  	}
 
  	#col_one {
