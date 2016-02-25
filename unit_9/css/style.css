@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Syncopate:700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { 
+	background: url("../images/basketballcourt.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: rgb(32, 35, 36);
+	font-family: 'Slabo 27px', serif;
+	font-size:18px;
+}
+nav {
+	background-color: rgba(80, 84, 85, .34);
+}
+aside {
+	border: 1px black solid;
+	padding: .5em;
+}
+section {
+	border: 1px black solid;
+	margin: 0 0 1em 1em;
+	padding: 2em;
+}
+footer{
+	background-color: rgba(226, 28, 28, .92);
+	font-size: 1em;
+	margin: 1em auto;
+	padding: 10px;
+	text-align: right;
+	width:80%;
+}
+h1 {
+	color: rgba(226, 28, 28, .92);
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.5em;
+	text-align: right;
+}
+h2 {
+	font-size: 1.05em;
+	padding-bottom: .25em;
+}
+p {
+	line-height: 1.5em;
+}
+
+span{
+	display: block;
+}
+ul {
+	line-height: 1.5em;
+	margin: .25em;
+}
+a{
+	color: rgba(226, 28, 28, .92);
+}
+nav a{
+	color: rgba(226, 28, 28, .92);
+	border-bottom: 1px white solid;
+	display: block;
+	font-size: 1.15em;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+}
+a:hover {
+	color: rgba(32, 35, 36, 1);
+}
+
+.wrapper {
+ 	background-color: #fff;
+ 	border: 1px black solid;
+ 	margin: auto;
+ 	padding: 2em;
+ 	width: 90%;
+ 	max-width: 1480px;
+}
+.column{
+ 	float: left;
+ 	margin-top: 20px;
+}
+
+.clearfix:after{
+	height:0;
+	font-size:0;
+	visibility:hidden;
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+#menu{
+	display: none;
+}
+
+#toggle{
+	display:none;
+	visibility: hidden;
+}
+
+#col_one{
+	width:20%;
+	min-width: 181px;
+}
+
+#col_two{
+	width:50%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+#col_three{
+	width: 25%;
+}
+
+#slogan {
+	border-bottom: .10em black solid;
+	border-top: .10em black solid;
+	font-family: 'Syncopate', sans-serif;
+	font-size:1.25em;
+	text-align: right;
+	padding: .5em 0 .5em 0;
+}
+#games{
+	font-weight: 400;
+	line-height: 1.75em;
+	list-style-type: none;
+}
+#contacts {
+	border: none;
+	margin-top: 1.5em;
+}	 
+
+@media only screen and (max-width: 1230px) {
+ 	body {
+ 		background: url("../images/basketballcourt_1230.jpg") no-repeat center center fixed;
+		background-size: cover;
+ 		font-size: 16px;
+ 	}
+}
+
+@media only screen and (max-width: 1100px) {
+ 	body {
+ 		background: url("../images/basketballcourt_1100.jpg") no-repeat center center fixed;
+		background-size: cover;
+ 		font-size: 15px;
+ 	}
+
+ 	form {
+ 		line-height: 2em;
+ 	}
+
+ 	input { 
+ 		width: 50%;
+
+ 	}
+ }
+@media only screen and (max-width: 1095px){
+	body{
+		background: url("../images/basketballcourt_1095.jpg") no-repeat center center fixed;
+		background-size: cover;
+	}
+	#col_three {
+ 		width: 20%;
+ 		margin-right: 0;
+ 	}
+
+ 	#games {
+ 		margin:auto;
+ 	}
+}
+ @media only screen and (max-width: 1030px) {
+ 	body {
+ 		background: url("../images/basketballcourt_1030.jpg") no-repeat center center fixed;
+		background-size: cover;
+ 		font-size: 14px;
+ 	}
+
+}
+
+@media only screen and (max-width: 850px) {
+ 	body{
+ 		background: url("../images/basketballcourt_850.jpg") no-repeat center center fixed;
+		background-size: cover;
+ 	}
+ 	h1, #slogan {
+ 		text-align: center;
+ 	}
+
+ 	.wrapper {
+ 		width: 90%;
+ 	}
+
+ 	#col_one {
+ 		width: 25%;
+ 	}
+
+ 	#col_three {
+ 		display: none;
+ 	}
+
+ 	#col_two {
+ 		width: 60%;
+ 	}
+ }
+@media only screen and (max-width: 660px){
+	body{
+		background: url("../images/basketballcourt_660.jpg") no-repeat center center fixed;
+		background-size: cover;
+	}
+	#col_two{
+		width:59%;
+	}
+}
+ @media only screen and (min-width: 312px) and (max-width: 645px) {
+ 	body{
+ 		background: rgba(227, 28, 28, 0.92);
+ 		font-size: 16px;
+ 	}
+
+ 	footer{
+ 		background: none;
+ 	}
+
+   	nav {
+ 		display:none;
+ 		margin: 1px 0 0;
+ 		width: 100%;
+
+ 	}
+
+ 	nav a {
+ 		display:block;
+ 	}
+
+ 	h1 {
+ 		border-bottom: .10em black solid;
+ 		font-size: 2em;
+ 	}
+
+ 	section{
+ 		margin: 0;
+ 	}
+
+ 	.column {
+ 		float: none;
+ 	}
+
+ 	#menu{
+   		background-color: rgba(80, 84, 85, .34);
+   		color:rgba(226, 28, 28, .92);
+   		cursor: pointer;
+   		display: block;
+   		font-size: 1.25em;
+   		margin: 0;
+   		padding: .5em;
+   		text-align:center;  
+   		width: 100%; 		
+   	}
+
+ 	#toggle:checked+nav{
+ 		display:block;
+ 	}
+
+ 	#col_one {
+ 		width: 100%;
+ 	}
+ 	
+ 	#col_two{
+ 		width:100%;
+ 		margin: 0;
+ 	}
+
+ 	#contacts {
+ 		display: none;
+ 	}
+
+ 	#slogan {
+ 		display: none;
+ 	}
+
+}
